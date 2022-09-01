@@ -1,0 +1,29 @@
+---
+baseURL: 'https://example.org/'
+languageCode: 'en-us'
+title: 'Engineering Notes'
+theme: 'PaperMod'
+
+menu:
+  main:
+    - name: Search
+      url: search/
+      weight: 10
+
+params:
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: "Engineering Notes"
+    Content: >
+        Welcome to my notes
+
+        - Do give a 🌟 on Github !
+
+
+  socialIcons:
+    - name: github
+      url: https://github.com/altayatalayy/Notes
